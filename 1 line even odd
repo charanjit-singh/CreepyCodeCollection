@@ -1,1 +1,1 @@
-bool iseven(int _){return _&1==0?1:0;}
+bool iseven(int _){return !_&1;}
